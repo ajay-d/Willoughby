@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pics on 3-Bedroom Clinton Hill</title>
+    <link>/pics/</link>
+    <description>Recent content in Pics on 3-Bedroom Clinton Hill</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Nov 2023 12:58:59 -0500</lastBuildDate>
+    <atom:link href="/pics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside</title>
+      <link>/pics/inside/</link>
+      <pubDate>Thu, 23 Nov 2023 12:58:59 -0500</pubDate>
+      <guid>/pics/inside/</guid>
+      <description>Living Room Kitchen Bathroom Mster Bedroom Full Bathroom </description>
+    </item>
+  </channel>
+</rss>
