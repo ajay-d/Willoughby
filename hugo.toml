@@ -1,0 +1,42 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "3-Bedroom Clinton Hill"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+enableEmoji = true
+publishDir = "docs"
+
+[params]
+  logo = ""
+  description = "larger than your current place"
+
+[params.author]
+  name = "Deonarines"
+  thumbnail = "/images/living.jpg"
+  description = "Creator of this blog."
+
+[params.index]
+  picture = "/images/living.jpg"
+  title = "Full 3-Bedroom Co-op In Clinton Hill"
+  subtitle = "1400 sq feet!"
+  mdtext = '''
+For sale directly by owners
+'''
+  alertbar = false
+
+## Main Menu
+[[menu.main]]
+    name = "Pictures"
+    weight = 100
+    identifier = "pics"
+    url = "/pics"
+[[menu.main]]
+    name = "About Us"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    weight = 200
+    url = "/static/contact"
