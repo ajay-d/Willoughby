@@ -1,4 +1,10 @@
-<div id="myWidget"></div>
+
+
+<form onsubmit="return false" id="myWidget">
+    <textarea rows="7" id="user_input" style="display:table-cell; width:100%"></textarea>
+    <br><br>  
+    <input type="submit" value="Fetch Result">
+</form> 
 
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=_turnstileCb" async defer></script>
 
@@ -6,11 +12,14 @@
     // This function is called when the Turnstile script is loaded and ready to be used.
     // The function name matches the "onload=..." parameter.
     function _turnstileCb() {
-        console.debug('_turnstileCb called');
+        console.log('_turnstileCb called');
     
         turnstile.render('#myWidget', {
           sitekey: '0x4AAAAAAAQiM5LO6WzbtLin',
-          theme: 'light',
+          theme: 'auto',
+          callback: function(token) {
+            console.log(`Challenge Success ${token}`);
+            }
         });
     }
 </script>
