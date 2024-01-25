@@ -1,5 +1,8 @@
 ---
 title: "Inside"
+date: 2024-01-23T12:58:59-05:00
+publishdate: 2024-01-23T12:58:59-05:00
+image: "/images/blog/1.jpg"
 comments: false
 ---
 # Living Room
