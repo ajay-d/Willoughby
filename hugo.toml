@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://195WilloughbyAve.com/"
 languageCode = "en-us"
 title = "3-Bedroom Clinton Hill"
 theme = "mediumish-gohugo-theme"
@@ -8,7 +8,7 @@ publishDir = "docs"
 
 [params]
   logo = ""
-  description = "larger than your current place"
+  description = "Spacious 3 Bedroom"
 
 [params.author]
   name = "Deonarines"
